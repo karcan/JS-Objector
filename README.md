@@ -17,7 +17,7 @@ Typed objects creatable on Javascript Vanilla
 - Nullable option (You can set the nullable property for each property on or off.)
 - Data Type (You can specify a data type for each property.)
 
-## Features (TR)
+## Özellikler (TR)
 - Statik tip kullanılan dillerde olduğu gibi nesneler üretebilirsiniz.
 - Basit bir şekilde ayarları yapıp oluşturabilirsiniz.
 - Nesne içerisinde genel ve her özellik için değiştirme tarihi ve değişti mi tutulur.
