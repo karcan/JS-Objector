@@ -1,5 +1,5 @@
-# Type-Object
-Javascript Type Object like Type Languages
+# Javascript Typed Object
+Typed objects creatable on Javascript Vanilla
 
 [![issues](https://img.shields.io/github/issues/karcan/Js-Typed-Object?color=green)](https://github.com/karcan/Js-Typed-Object/issues)
 [![fork](https://img.shields.io/github/forks/karcan/Js-Typed-Object?color=green&logo=github)](https://github.com/karcan/Js-Typed-Object/fork)
