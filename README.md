@@ -1,7 +1,7 @@
-[![issues](https://img.shields.io/github/issues/karcan/Js-Typed-Object?color=green)](https://github.com/karcan/Js-Typed-Object/issues)
-[![fork](https://img.shields.io/github/forks/karcan/Js-Typed-Object?color=green&logo=github)](https://github.com/karcan/Js-Typed-Object/fork)
-[![star](https://img.shields.io/github/stars/karcan/Js-Typed-Object?color=green&logo=github)](https://github.com/karcan/js-typed-object/stargazers)
-[![license](https://img.shields.io/github/license/karcan/Js-Typed-Object)](https://github.com/karcan/Js-Typed-Object/blob/main/LICENSE)
+[![issues](https://img.shields.io/github/issues/karcan/k-Object?color=green)](https://github.com/karcan/k-Object/issues)
+[![fork](https://img.shields.io/github/forks/karcan/k-Object?color=green&logo=github)](https://github.com/karcan/k-Object/fork)
+[![star](https://img.shields.io/github/stars/karcan/k-Object?color=green&logo=github)](https://github.com/karcan/k-Object/stargazers)
+[![license](https://img.shields.io/github/license/karcan/k-Object)](https://github.com/karcan/k-Object/blob/main/LICENSE)
 
 ## Javascript Typed Object
 Typed objects creatable on Javascript Vanilla
