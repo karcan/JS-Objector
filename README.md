@@ -1,8 +1,8 @@
-[![issues](https://img.shields.io/github/issues/karcan/k-Object?color=green)](https://github.com/karcan/k-Object/issues)
-[![fork](https://img.shields.io/github/forks/karcan/k-Object?color=green&logo=github)](https://github.com/karcan/k-Object/fork)
-[![star](https://img.shields.io/github/stars/karcan/k-Object?color=green&logo=github)](https://github.com/karcan/k-Object/stargazers)
-[![patreon](https://img.shields.io/badge/patreon-donate-green?logo=patreon)](https://www.patreon.com/karcan)
-[![license](https://img.shields.io/github/license/karcan/k-Object)](https://github.com/karcan/k-Object/blob/main/LICENSE)
+[![issues](https://img.shields.io/github/issues/karcan/k-Object?color=%2360A917)](https://github.com/karcan/k-Object/issues)
+[![fork](https://img.shields.io/github/forks/karcan/k-Object?color=%2360A917&logo=github)](https://github.com/karcan/k-Object/fork)
+[![star](https://img.shields.io/github/stars/karcan/k-Object?color=%2360A917&logo=github)](https://github.com/karcan/k-Object/stargazers)
+[![patreon](https://img.shields.io/badge/patreon-donate-%2360A917?logo=patreon)](https://www.patreon.com/karcan)
+[![license](https://img.shields.io/github/license/karcan/k-Object?color=%2360A917)](https://github.com/karcan/k-Object/blob/main/LICENSE)
 
 ## Javascript Typed Object
 Typed objects creatable on Javascript Vanilla
