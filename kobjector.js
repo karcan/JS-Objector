@@ -95,8 +95,7 @@
                 defineProperty["value"] = prop.defaultValue;
             }
 
-            return Object.defineProperty(object, property,defineProperty);
-            
+            return Object.defineProperty(object, property,defineProperty); 
         }
 
         property(prop){
