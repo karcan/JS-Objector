@@ -82,7 +82,6 @@
             // defaultValue for functional or static value
             prop.defaultValue = ((self._getType((object.__data.fields[property].value || prop.defaultValue)) == "Function") ? (object.__data.fields[property].value || prop.defaultValue)() : (object.__data.fields[property].value || prop.defaultValue));
 
-
             if(([undefined,true].includes(prop.writable) ? true : false)){
                 // GETTER
                 defineProperty.get = function(){
@@ -96,7 +95,6 @@
                 defineProperty["value"] = prop.defaultValue;
             }
 
-            console.log(defineProperty);
             return Object.defineProperty(object, property,defineProperty);
             
         }
