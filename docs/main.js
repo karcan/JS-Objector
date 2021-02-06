@@ -1,13 +1,14 @@
 (function(){
     const params = new URLSearchParams(window.location.search);
     const page = params.get('page');
+    console.log("page " , page);
     fetch('route.json', {
 
     })
     .then(response => response.json())
     .then(data => {
-        let html = data.find(i=>i.route == page || "main");
-
+        let html = data.find(i=>i.route == page ?? "main");
+        console.log("html " , html);
         fetch("pages/" + html.html)
         .then(response => {
             document.querySelector("#main").innerHTML(response);
