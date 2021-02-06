@@ -7,7 +7,7 @@
     .then(data => {
         let html = data.find(i=>i.route == page);
         console.log("html " , html);
-        fetch("pages/" + html.html || "main" + "?v=" + Math.random())
+        fetch("pages/" + (html ? html.html : "main") + "?v=" + Math.random())
         .then(response => {
             console.log("response " , response);
             document.querySelector("#main").innerHTML = response;
