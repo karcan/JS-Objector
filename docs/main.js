@@ -3,6 +3,6 @@
     const page = params.get('page');
     fetch('route.json')
     .then(response => response.json())
-    .then(data => console.log(data) , console.log(data[page || "main"]));
+    .then(data => console.log(data), window.kdata = data);
 })();
 
