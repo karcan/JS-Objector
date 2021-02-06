@@ -1,5 +1,5 @@
 (function(){
-    var qs = (function(a) {
+    let qs = (function(a) {
         if (a == "") return {};
         var b = {};
         for (var i = 0; i < a.length; ++i)
@@ -13,7 +13,7 @@
         return b;
     })(window.location.search.substr(1).split('&'));
 
-    qs.page || null ;
+    let page = qs.page || null ;
 
     console.log(page);
 })();
