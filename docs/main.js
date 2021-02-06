@@ -9,8 +9,8 @@
         console.log("html " , html);
         fetch("pages/" + (html ? html.html : "main") + "?v=" + Math.random())
         .then(response => {
-            console.log("response " , response.body);
-            document.querySelector("#main").innerHTML = response.body;
+            console.log("response " , response.text());
+            document.querySelector("#main").innerHTML = response.text();
         });
 
     });
