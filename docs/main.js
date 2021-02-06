@@ -1,20 +1,8 @@
 (function(){
-    let qs = (function(a) {
-        if (a == "") return {};
-        var b = {};
-        for (var i = 0; i < a.length; ++i)
-        {
-            var p=a[i].split('=', 2);
-            if (p.length == 1)
-                b[p[0]] = "";
-            else
-                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
-        }
-        return b;
-    })(window.location.search.substr(1).split('&'));
-
-    let page = qs.page || null ;
-
-    console.log(page);
+    const params = new URLSearchParams(window.location.search);
+    const page = params.get('page');
+    fetch('route.json')
+    .then(response => response.json())
+    .then(data => console.log(data) , console.log(data[page || "main"]));
 })();
 

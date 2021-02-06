@@ -1,0 +1,5 @@
+[
+    {"route" : "main", "html" : "main.html"},
+    {"route" : "docs", "html" : "docs.html"},
+    {"route" : "contact", "html" : "contact.html"}
+]
