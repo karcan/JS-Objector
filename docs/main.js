@@ -15,7 +15,6 @@
             console.log(html);
             document.querySelector("#main").innerHTML = html;
         });
-
     });
 })();
 
